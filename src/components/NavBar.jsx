@@ -23,7 +23,7 @@ function NavBar (props){
           <Nav className="me-auto">
             <Link to="/form">Create Form <HouseGear/> </Link>
             <Link to="/userForm">My Forms </Link>     
-            <Link onClick={SingOutClick}>Sing Out <BoxArrowRight/></Link>
+            <Link onClick={SingOutClick}>Sign Out <BoxArrowRight/></Link>
           </Nav>
         </Navbar.Collapse>
           </Container>
@@ -32,7 +32,7 @@ function NavBar (props){
           :
           <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-          <Navbar.Brand href="#home">Coins</Navbar.Brand>
+          <Navbar.Brand href="#home">PDF Builder</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
