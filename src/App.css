@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+:root{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.me-auto> a {
+  padding: 10px;
+  text-decoration: inherit;
+  color: rgba(113, 107, 107, 0.824);
+}
+
+.GoToLink:hover, .me-auto> a:hover{
+  color: black;
+} 
+
+.GoToLink{
+  color: white;
+  text-decoration: inherit;
+}
+

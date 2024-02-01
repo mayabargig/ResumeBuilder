@@ -1,0 +1,34 @@
+label{
+    margin: 20px;
+    padding: 10px;
+    justify-content:space-evenly;
+}
+
+select,option,input{
+    left: 0%;
+    border: 2px solid black;
+}
+
+#logPara{
+    color: rgb(77, 77, 219);
+    text-decoration: underline;
+
+}
+
+#logPara:hover{
+    color: black;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+#LoginForm{
+    max-width: 500px;
+    padding: 40px;
+    margin: 0%;
+}
+
+#logSignP{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
